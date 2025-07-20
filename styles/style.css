@@ -1,72 +1,91 @@
+/* body{
+    background-image: linear-gradient(#9503fd0e,#00aefe0a);
+} */
 
-
-.raleway-normal{
+.raleway{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
-.inter-normal {
+.inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
-  /* header */
+  /* header section */
   .header{
-    background-image: url(../Assets/Hero-bg.png);
+    height: 700px; 
+    background-image: url(Assets/Hero-bg.png);
+    background-size:contain;
+    background-color: #ffffff;
   }
 
 /* Nav Style */
  nav{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 150px;
- }
- .nav-title{
-    font-weight: 900;
-    font-size: 34px;
- }
-nav ul{
-    display: flex;
-}
- nav ul li{
-    list-style: none;
- }
-nav ul a{
-    font-size: 20px;
-}
-
- /* shared style */
- .text-primary{
-    color: #4E47FF;
  }
 
 
-.btn-primary{
-    background-color: #4E47FF;
-    font-weight: bold;
-    font-size: 16px;
-    color: #FFFFFF;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
-}
-
-.banner-title{
-    font-weight: bold;
-    font-size: 65px;
-    color: #32242B;
-    max-width: 1440px;
-    margin: 0 auto;
-}
-.banner{
-    justify-content:center;
-    align-items: center;
+.inter-header{
+    width: 905px;
+    height: 375px;
     text-align: center;
-    line-height: auto;
-    max-width: 905px;
+    margin: auto;
+    padding-top:158px ;
 }
 
+/* ID */
+
+#logo{
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 150%;
+    color: rgba(78, 71, 255, 1);
+}
+
+#p1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+}
+
+ /* button style */
+
+ .btn{
+     height: 48px;
+     width: 132px;
+     color: white;
+     background-color: #3129fb;
+     border-radius: 10px;
+     border: none;
+}
+
+.btn:hover{
+    transition: 1s;
+    color: black;
+    background-color: rgba(221, 16, 26, 0.867);
+    cursor: pointer;
+}
+
+.btn2{
+     height: 48px;
+     width: 174px;
+     color: white;
+     background-color: #3129fb;
+     border-radius: 10px;
+     margin-top: 50px;
+     border: none;
+}
+.btn2:hover{
+    transition: 1s;
+    color: black;
+    background-color: rgba(221, 16, 26, 0.867);
+    cursor: pointer;
+}
